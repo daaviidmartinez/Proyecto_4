@@ -31,6 +31,8 @@ var filaFinal=[0]
 var columnaInicial=[0]
 var columnaFinal=[0]
 
+//Inicializamos la primera funcion
+
 function casillaAleatoria() {
   columnaInicial=Math.floor(Math.random()*6 + 1);
   posInicial[0]=columnaInicial;
@@ -41,8 +43,10 @@ function casillaAleatoria() {
   filaFinal=Math.floor(Math.random()*6 + 1);
   posFinal[1]=filaFinal
 }
+//Llamamos a la funcion
 casillaAleatoria()
 
+//Inicializamos la segunda funcion
 function iniciaTablero() {
 document.write("<table>");
 document.write("<tr>");
@@ -131,4 +135,5 @@ document.write("</tr>")
   }
 
 console.log(posInicial);
+//Llamamos a la segunda funcion
 iniciaTablero()
