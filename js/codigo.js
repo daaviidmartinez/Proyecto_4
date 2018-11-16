@@ -54,7 +54,7 @@ document.write("<tr>");
     if (posInicial[0]==1 && posInicial[1]==i+1) {
         document.write(`<td style="background-color:${color1[i]};font-size:50px; border: 5px solid black">${numero1[i]}</td>`)
       }
-    else if (posFinal[0]==2 && posFinal[1]==i+1) {
+    else if (posFinal[0]==1 && posFinal[1]==i+1) {
       document.write(`<td style="background-color:${color1[i]};font-size:50px; border: 5px solid grey">${numero1[i]}</td>`)
     }
     else {
@@ -67,7 +67,7 @@ document.write("</tr>")
     if (posInicial[0]==2 && posInicial[1]==i+1) {
         document.write(`<td style="background-color:${color2[i]};font-size:50px; border: 5px solid black">${numero2[i]}</td>`)
       }
-    else if (posFinal[0]==3 && posFinal[1]==i+1) {
+    else if (posFinal[0]==2 && posFinal[1]==i+1) {
       document.write(`<td style="background-color:${color2[i]};font-size:50px; border: 5px solid grey">${numero2[i]}</td>`)
     }
     else {
@@ -80,7 +80,7 @@ for (let i = 0; i < long3; i++) {
   if (posInicial[0]==3 && posInicial[1]==i+1) {
       document.write(`<td style="background-color:${color3[i]};font-size:50px; border: 5px solid black">${numero3[i]}</td>`)
     }
-  else if (posFinal[0]==4 && posFinal[1]==i+1) {
+  else if (posFinal[0]=3 && posFinal[1]==i+1) {
     document.write(`<td style="background-color:${color3[i]};font-size:50px; border: 5px solid grey">${numero3[i]}</td>`)
   }
   else {
@@ -94,7 +94,7 @@ for (let i = 0; i < long4; i++) {
   if (posInicial[0]==4 && posInicial[1]==i+1) {
       document.write(`<td style="background-color:${color4[i]};font-size:50px; border: 5px solid black">${numero4[i]}</td>`)
     }
-  else if (posFinal[0]==5 && posFinal[1]==i+1) {
+  else if (posFinal[0]==4 && posFinal[1]==i+1) {
     document.write(`<td style="background-color:${color4[i]};font-size:50px; border: 5px solid grey">${numero4[i]}</td>`)
   }
   else {
@@ -108,7 +108,7 @@ for (let i = 0; i < long5; i++) {
   if (posInicial[0]==5 && posInicial[1]==i+1) {
       document.write(`<td style="background-color:${color5[i]};font-size:50px; border: 5px solid black">${numero5[i]}</td>`)
     }
-  else if (posFinal[0]==6 && posFinal[1]==i+1) {
+  else if (posFinal[0]==5 && posFinal[1]==i+1) {
     document.write(`<td style="background-color:${color5[i]};font-size:50px; border: 5px solid grey">${numero5[i]}</td>`)
   }
   else {
@@ -122,7 +122,7 @@ for (let i = 0; i < long6; i++) {
   if (posInicial[0]==6 && posInicial[1]==i+1) {
       document.write(`<td style="background-color:${color6[i]};font-size:50px; border: 5px solid black">${numero6[i]}</td>`)
     }
-  else if (posFinal[0]==1 && posFinal[1]==i+1) {
+  else if (posFinal[0]==6 && posFinal[1]==i+1) {
     document.write(`<td style="background-color:${color6[i]};font-size:50px; border: 5px solid grey">${numero6[i]}</td>`)
   }
   else {
